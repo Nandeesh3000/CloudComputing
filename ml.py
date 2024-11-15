@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import sklearn
-from sklearn import linear_mode
+from sklearn import linear_model
 
 
 height = [[3.0], [4.0], [5.0], [6.0], [7.0], [8.0], [9.0], [10.0], [11.0]]
