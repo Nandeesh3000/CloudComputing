@@ -13,7 +13,7 @@ weight = [6, 8, 10, 12, 14, 16, 18, 20, 22]
 plt.scatter([h[0] for h in height], weight, color='black')
 plt.xlabel("Height")
 plt.ylabel("Weight")
-
+reg=linear_model.LinearRegression()
 reg.fit(height, weight)
 
 
